@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Afifa Islam Ananna | Cybersecurity Portfolio</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #e6e6e6;
+      background: #0b0f19;
+    }
+    header {
+      background: radial-gradient(circle at top, #0f2027, #000814);
+      padding: 4rem 1rem;
+      text-align: center;
+      border-bottom: 1px solid #1f2a44;
+    }
+    header h1 {
+      font-size: 2.7rem;
+      color: #00e5ff;
+      letter-spacing: 1px;
+    }
+    header p {
+      max-width: 720px;
+      margin: 1rem auto 2rem;
+      color: #b3c7ff;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      border-radius: 30px;
+      background: linear-gradient(135deg, #00e5ff, #4facfe);
+      color: #000;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 0 20px rgba(0,229,255,0.4);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 0 30px rgba(0,229,255,0.7);
+    }
+    nav {
+      background: #000814;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      border-bottom: 1px solid #1f2a44;
+    }
+    nav a {
+      text-decoration: none;
+      color: #00e5ff;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+    section {
+      padding: 3.5rem 1rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1.8rem;
+      color: #4facfe;
+      border-left: 4px solid #00e5ff;
+      padding-left: 0.8rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: #020617;
+      padding: 1.7rem;
+      border-radius: 14px;
+      border: 1px solid #1f2a44;
+      box-shadow: 0 0 25px rgba(0,0,0,0.6);
+    }
+    .card h3 { color: #00e5ff; margin-bottom: 0.5rem; }
+    ul { padding-left: 1.2rem; }
+    li { margin-bottom: 0.6rem; }
+    footer {
+      background: #000814;
+      color: #9bb0ff;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      border-top: 1px solid #1f2a44;
+    }
+    .contact a { color: #00e5ff; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Afifa Islam Ananna</h1>
+  <p>BSc in CSE · Aspiring Cybersecurity Professional · Blockchain & Security Researcher</p>
+  <a href="Ananna_Resume.pdf" class="btn" download>⬇ Download CV</a>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#education">Education</a>
+  <a href="#experience">Experience</a>
+  <a href="#skills">Skills</a>
+  <a href="#research">Research</a>
+  <a href="#achievements">Achievements</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <div style="display:flex; flex-wrap:wrap; align-items:center; gap:2rem;">
+    <img src="profile.png" alt="Afifa Islam Ananna" style="width:220px; height:220px; object-fit:cover; border-radius:50%; border:3px solid #00e5ff; box-shadow:0 0 25px rgba(0,229,255,0.6);" />
+    <p style="flex:1; min-width:260px;">
+      I am a Computer Science and Engineering graduate from ULAB with strong academic, research,
+      and development experience. My interests lie in cybersecurity, blockchain-based security systems,
+      networking and emerging secure technologies. I am motivated to begin my professional
+      career in cybersecurity.
+    </p>
+  </div>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>BSc in Computer Science & Engineering</h3>
+      <p>University of Liberal Arts Bangladesh (2024)</p>
+      <p><strong>CGPA:</strong> 3.62 / 4.00</p>
+    </div>
+    <div class="card">
+      <h3>HSC</h3>
+      <p>Birshreshtha Munshi Abdur Rouf Public College (2017)</p>
+      <p>GPA: 5.00</p>
+    </div>
+    <div class="card">
+      <h3>SSC</h3>
+      <p>Ahmed Bawany School and College (2015)</p>
+      <p>GPA: 5.00</p>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="grid">
+    <div class="card"><h3>Teaching Assistant</h3><p>ULAB (2023–2024)</p></div>
+    <div class="card"><h3>App Developer</h3><p>BDapps (2020–2022)</p></div>
+    <div class="card"><h3>IEEE Publication Team Member</h3><p>ULAB (2021)</p></div>
+    <div class="card"><h3>Volunteer</h3><p>ULAB Computer Programming Club (2019–2024)</p></div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Programming</h3>
+      <ul><li>C, C++, Java, C#</li><li>HTML, JavaScript</li><li>Solidity</li></ul>
+    </div>
+    <div class="card">
+      <h3>Tools & Platforms</h3>
+      <ul><li>Linux, LaTeX</li><li>MS Word, Excel, PowerPoint</li></ul>
+    </div>
+    <div class="card">
+      <h3>Language</h3>
+      <ul><li>English</li><li>Bangla</li></ul>
+    </div>
+    <div class="card">
+      <h3>Professional Skills</h3>
+      <ul><li>Teamwork & Leadership</li><li>Time Management</li><li>Technical Communication</li></ul>
+    </div>
+  </div>
+</section>
+
+<section id="research">
+  <h2>Research Publications</h2>
+  <div class="grid">
+    <div class="card"><h3>Blockchain-Based Controller Recovery and SDN Forwarding Device Rule Migration for UAVs</h3><p>Springer Nature, 2025</p></div>
+    <div class="card"><h3>Blockchain-Based Controller Recovery and SDN Packet Filtering Scheme for Softwarized UAVs</h3><p>IEEE Xplore, 2024</p></div>
+    <div class="card"><h3>WildSaver: Advancing Wildlife Conservation with UAVs and Blockchain Technology</h3><p>Springer Nature, 2024</p></div>
+  </div>
+</section>
+
+<section id="achievements">
+  <h2>Achievements</h2>
+  <ul>
+    <li>1st Place – CSE Project Competition, ULAB</li>
+    <li>2nd Place – Idea Competition, BUP</li>
+    <li>7th Place – Starkoro Idea Competition</li>
+  </ul>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact</h2>
+  <p><strong>Phone:</strong> 01746‑395599</p>
+  <p><strong>Email:</strong> <a href="mailto:afifaislamananna@gmail.com">afifaislamananna@gmail.com</a></p>
+  <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/afifa-islam-ananna-06a1b5263" target="_blank">linkedin.com/in/afifa-islam-ananna</a></p>
+  <p><strong>Location:</strong> Dhaka, Bangladesh</p>
+</section>
+
+<footer>
+  <p>© 2026 Afifa Islam Ananna · Cybersecurity Portfolio</p>
+</footer>
+
+</body>
+</html>
